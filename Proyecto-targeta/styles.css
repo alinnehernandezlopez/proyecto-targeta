@@ -1,0 +1,44 @@
+/* Fondo general */
+body {
+  background-color: hsl(197, 71%, 73%);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.tarjeta {
+  background: linear-gradient(to bottom right, #a8c6f7, #7da7f7); /* degradado azul pálido */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(125, 167, 247, 0.4);
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+  color: #2c3e50; /* texto azul oscuro para buen contraste */
+}
+
+/* Imagen */
+.imagen-personaje {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Enlace tipo botón */
+.boton {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: rgb(255, 99, 71); /* rgb */
+  color: #ffffff; /* hex */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover */
+.boton:hover {
+  background-color: hsl(120, 60%, 40%); /* hsl */
+}
